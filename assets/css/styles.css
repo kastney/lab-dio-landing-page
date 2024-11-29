@@ -1,0 +1,193 @@
+@import url('reset.css');
+
+/* Seletores Estruturais */
+
+body {
+    /* Definindo cor de fundo para o corpo da página */
+    background: black;
+}
+
+section {
+    /* Centralizando a seção e ajustando margens verticais */
+    margin: auto;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+/* Seletores de Elementos */
+
+h2 {
+    /* Estilizando títulos para destacar com cor e espaçamento */
+    color: #03b3ff;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 24px;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+p {
+    /* Definindo cor padrão para textos */
+    color: #fff;
+}
+
+/* Seletores de Classes */
+
+.banner {
+    /* Configurando a imagem de fundo e estilização do banner */
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#03b3ff33, #00000099), url('../images/banner.png');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .banner-content {
+    /* Estilo centralizado para o conteúdo do banner */
+    text-align: center;
+    color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    /* Destaque para o título principal com gradiente */
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 900;
+    background: -webkit-linear-gradient(#03b3ff, #003e59);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.banner p {
+    /* Ajuste de tamanhos e espaçamentos do texto no banner */
+    font-size: 20px;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+.banner .logo {
+    /* Estilo para a logo centralizada dentro do banner */
+    border-radius: 130px;
+    height: 260px;
+    background-color: #00000033;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    padding: 16px;
+    width: 260px;
+}
+
+.banner .logo img {
+    /* Centralização e ajuste de imagem na logo */
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+    margin: auto;
+}
+
+.banner .banner-content button {
+    /* Botão estilizado com bordas gradientes */   
+    text-transform: uppercase;    
+    color: #03b3ff;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 15px;    
+    font-weight: bold;
+    background-color: transparent;
+    letter-spacing: 4px;    
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+}
+
+/* Conteúdo Principal */
+
+#course-content {
+    /* Centralizando e ajustando largura para o conteúdo */
+    text-align: center;
+    width: 800px;
+}
+
+#course-content .modules-list {
+    /* Margens verticais da lista de módulos */
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+#course-content .modules-list .module {
+    /* Estilização individual para cada módulo */
+    color: #fff;
+    border-radius: 50px;
+    padding: 16px;
+    width: 530px;
+    margin: 0 auto 24px;
+    background-color: #002a34;
+    border: 2px solid #03b3ff;
+}
+
+#course-content .modules-list .module span {
+    /* Cor específica para destaques dentro de módulos */
+    color: #03b3ff;
+}
+
+/* Seção Transformação */
+
+#transform-world {
+    /* Configurando imagem de fundo e bordas para a seção */
+    height: 560px;
+    padding: 100px;
+    background-position: center;
+    background-image: url("../images/woman-code.png");
+    border-bottom: 1px solid #03b3ff;
+    background-size: cover;
+    border-top: 1px solid #03b3ff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#transform-world p {
+    /* Ajuste do texto com sombra e formatação */
+    text-transform: lowercase;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 5px 5px 10px #03b3ff;
+    max-width: 200px;    
+}
+
+/* Desafios Profissionais */
+
+#professional-challenges {
+    /* Centralização para a seção de desafios */
+    width: 800px;
+    text-align: center;
+}
+
+#professional-challenges img {
+    /* Margens verticais para imagens */
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+/* Rodapé */
+
+footer {
+    /* Estilo para o rodapé com gradiente e espaçamento */
+    border-top: 1px solid #03b3ff;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-image: linear-gradient(#03b3ff00, #03b3ff33);
+}
+
+footer a {
+    /* Links no rodapé com destaque de cor */
+    text-decoration: none;
+    font-weight: bold;
+    color: #03b3ff;
+}
+
+footer .dio-logo {
+    /* Tamanho ajustado para a logo no rodapé */
+    width: 300px;
+}
